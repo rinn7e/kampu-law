@@ -31,6 +31,14 @@ The project consists of multiple parts which can be described below:
 - Integrate a forum-like feature into the web application, where one can discuss about a legislation or article.
 - Implement a mobile application.
 
+### Data Structure
+- Since each មាត្រា can be belonged to multi-level group, it's hard to just store it in a record-type.
+
+- The propose solution is to store them in a tree-like data structure, where each nodes
+is considered as a group (ជំពូក ភាគ ផ្នែក) and the leaf is មាត្រា.
+
+- The tree should be a Left-child right-sibling (reference: https://stackoverflow.com/questions/41408922/data-type-for-tree-in-haskell)
+
 ## Inspiration
 There's a similar project but with German Law: https://github.com/bundestag/gesetze (Use google translate if you want to read it).
 
