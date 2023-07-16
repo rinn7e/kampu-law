@@ -45,5 +45,15 @@ There's a similar project but with German Law: https://github.com/bundestag/gese
 Though the features and the implementation are slightly different, the
 end goal is the same, to make the law more accessible.
 
+
+## Funding
+
+This project is developed and maintained by me in my free time 😎.
+
+If you like this project, you can buy me a coffee via ABA: 000 325 068 (Moremi Vannak).
+
+If you want to fund this project, you can email me at `moremi.va@gmail.com`.
+
+
 ## Special thanks to
 `Y3VsdHVyZSBpcyBkb3duc3RyZWFtIGZyb20gbGF3`
