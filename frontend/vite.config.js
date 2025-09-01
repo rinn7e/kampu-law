@@ -5,6 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import basicSsl from '@vitejs/plugin-basic-ssl'
 
 export default defineConfig({
+  base: 'https://rinn7e.github.io/kampu-law',
   plugins: [
     // basicSsl(),
     elmPlugin(),
