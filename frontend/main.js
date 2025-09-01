@@ -1,4 +1,7 @@
+import "@fontsource/chenla/index.css"
+
 import "./src/assets/style.css";
+
 import { Elm } from "./src/Main.elm";
 
 

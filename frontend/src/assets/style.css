@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@import "@fontsource/moulpali";
-@import "@fontsource/chenla";
 
 @theme {
     --spacing: 0.0625rem;
