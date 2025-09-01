@@ -290,7 +290,7 @@ modalContent model =
 modalContent2 =
     [ p [ class "font-semibold" ] [ text "ទិញកាហ្វេអោយ១ទៅហី..." ]
     , div [ class "flex flex-col items-center gap-8" ]
-        [ img [ src "./src/assets/qr.jpg", class "w-180" ] []
+        [ img [ src <| VitePluginHelper.asset "/src/assets/qr.jpg", class "w-180" ] []
         , p [ class "text-sm flex flex-col" ]
             [ span [] [ text "បង្កើតដោយ" ]
             , span [] [ text "rinn7e" ]
